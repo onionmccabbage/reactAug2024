@@ -1,1 +1,27 @@
 Web Technologies and React
+==========================
+VM may be s-l-o-w 
+
+in VS Code add 'live server' extension 
+(a handy development server)
+
+Feel free to use any resources you find online 
+
+
+Monday 12th August
+- Overview of web technologies and online resources
+- Stuff that matters, stuff that you can be lax about
+- HTML and CSS
+- JavaScript
+Tuesday 13th August
+- Financial Concepts
+Wednesday 14th August
+- React
+Thursday 15th August
+- Loose Ends
+- Project Time
+Friday 16th August
+- Knowledge-check
+- Project Time
+
+Next week: Project presentations on afternoon of Friday 23rd Aug
