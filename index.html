@@ -29,10 +29,12 @@
             <h3 class="lighter">Lists</h3>            
             <!-- ol is an ordered list -->
             <ol>
-                <!-- li is list item -->
-                <li>Apples</li>
-                <li>Pears</li>
-                <li>Durian</li>
+                <aside>
+                    <!-- li is list item -->
+                    <li>Apples</li>
+                    <li>Pears</li>
+                    <li>Durian</li>
+                </aside>
             </ol>            
             <!-- ul is an unordered list -->
             <ul>
@@ -59,6 +61,20 @@
                     <td>Durian</td><td>30</td><td>300</td>
                 </tr>
              </table>
+        </section>
+        <section>
+            <ul>
+                <aside>
+                    <li>red, yellow or green</li>
+                    <!-- class styles override tag styles -->
+                    <li class="wibble">red, yellow or green</li>
+                    <!-- id styles override tag styles -->
+                    <li id="doobiedoo">red, yellow or green</li>
+                    <!-- id beats class, class beats tag -->
+                    <li class="wibble" id="doobiedoo">red, yellow or green</li>
+                    <li id="doobiedoo" class="wibble">red, yellow or green</li>
+                </aside>
+            </ul>
         </section>
     </article>
     <!-- we may represent any character as an entity &nnn; -->

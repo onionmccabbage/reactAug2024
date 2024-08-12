@@ -1,18 +1,33 @@
 /*    * {} applies to everything */
-* {
+body {
     background-color: antiquewhite;
 }
 
 /* tag styles: automatically apply to every specified tag */
 p {
     color: brown;
+
 }
 
-h2 {
+/* structural - use of space, comma, chevron */
+h1, h2, h3, h4, h5, h6 { /* we can declare a comma-list of identical tag styles */
     color: darkslategrey;
 }
-/* what is the CSS hierarchy...... */
+/* space means: apply the style ONLY when inside the specified parent tag */
+ol li {font-family: 'Times New Roman', Times, serif;} /* a serif font */
+/* chevron > means apply to IMMEDIATE child only (in this case, li inside ul */
+ul>li {margin-left: 24px;}
 
+/* what is the CSS hierarchy...... */
+/* explore CSS overrides */
+li {color:red; font-style: italic;}
+.wibble {color:yellow; background-color: slategray;}
+#doob    {color: green; border: solid 1px goldenrod;}
+
+/* fonts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* class styles: nothing happens until you manually apply anywhere */
 .lighter {
