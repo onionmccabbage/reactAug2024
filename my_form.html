@@ -25,10 +25,17 @@
                 <input type="radio" />
                 <input type="checkbox" />
                 <hr/>
-                <button>Go</button>
+                <button onclick="stopForm()">Go</button>
             </form>
         </section>
     </article>
-    
+    <!-- these days we often put any JS at the bottom of the page -->
+     <script>
+        //  we need a way to prevent the form submitting
+        const stopForm = ()=>{
+            // this is the way to stop the default behaviour of an event
+            event.preventDefault()
+        }
+     </script>
 </body>
 </html>

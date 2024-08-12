@@ -1,2 +1,24 @@
 /*    * {} applies to everything */
-* {background-color: antiquewhite;}
+* {
+    background-color: antiquewhite;
+}
+
+/* tag styles: automatically apply to every specified tag */
+p {
+    color: brown;
+}
+
+h2 {
+    color: darkslategrey;
+}
+/* what is the CSS hierarchy...... */
+
+
+/* class styles: nothing happens until you manually apply anywhere */
+.lighter {
+    font-weight: lighter;
+    color: #B1C; /* same as #BB11CC */
+}
+
+/* id styles: manually apply to ONE element*/
+#lunch {border: solid 6px #393276;}
