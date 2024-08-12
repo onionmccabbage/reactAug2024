@@ -1,0 +1,8 @@
+you have abotu 20 mins
+add to your HTML/JS
+- user enters into the text field (already got that)
+- if they type 'Neo' then write 'we've been expecting you' on the page
+- whatever they type, console.log the characters
+
+Optional if Time
+- every time a new entry is made, append to an array Array.append()
