@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./styles/index.css" />
 </head>
 <!-- the tag is <body> the element is the tag and anything in between -->
-<body>    <!-- here are some semantic tags -->
+<body>    
+    <!-- here are some semantic tags -->
     <header><h2>Welcome to the world of Web Technologies</h2></header>
      <nav><a href="https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Citi_One_NAM_LATAM_G1_CONAM1/site/index.html">Course Website</a></nav>
     <article>
@@ -24,23 +25,42 @@
             <p>The programming language for browsers</p>
         </section>
         <section>
-            <h3>Lists</h3>            <!-- ol is an ordered list -->
+            <h3>Lists</h3>            
+            <!-- ol is an ordered list -->
             <ol>
                 <!-- li is list item -->
                 <li>Apples</li>
                 <li>Pears</li>
                 <li>Durian</li>
-            </ol>            <!-- ul is an unordered list -->
+            </ol>            
+            <!-- ul is an unordered list -->
             <ul>
-                <li>Sunshine</li>
+                <li title='I like this one'>Sunshine</li>
                 <li>Snow</li>
                 <li>Cloud</li>
             </ul>
             <!-- <img> is a self-close tag. It is good practice to use <img/> -->
             <!-- all html tags may take zero mor more attributes -->
-            <img src="https://robohash.org/wibblywoo" alt="" title="" />
+             <!-- NB it is really important for access to provide alt -->
+            <img src="https://robohash.org/wibblywoo" alt="a smiley robot" title="this appears on hover" />
+            <!-- HTML tables are useful for tabular data -->
+             <table>
+                <tr>
+                    <th>Item</th><th>Quantity</th><th>Price</th>
+                </tr>
+                <tr>
+                    <td>Apple</td><td>10</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Pears</td><td>20</td><td>200</td>
+                </tr>
+                <tr>
+                    <td>Durian</td><td>30</td><td>300</td>
+                </tr>
+             </table>
         </section>
     </article>
-    <footer></footer>
+    <!-- we may represent any character as an entity &nnn; -->
+    <footer>&copy;2024 read our legal notice</footer>
 </body>
 </html>
