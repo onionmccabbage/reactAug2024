@@ -12,7 +12,8 @@ Monday 12th August
 - Stuff that matters, stuff that you can be lax about
 - HTML and CSS
 - JavaScript
-q - how can we have the browser validate AND prevent default...?
+q - how can we have the browser validate AND prevent default...(see React....)
+q - const fn=()=>{} ...
 Tuesday 13th August
 - Financial Concepts (all day)
 Wednesday 14th August

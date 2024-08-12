@@ -1,3 +1,29 @@
+// some basics about ES6
+// functions - let me count the ways...
+const fnA = (x)=>{return x*x} // we can call this a lambda
+const fnB = (x)=> x*x // one liner no brackets, implicit return
+const fnC = x=>{return x*x} // if there is exactly ONE argument
+// CAREFUL - if you mean to return something you MUST write 'return' inside the {}
+const fnD = (x)=>{ x*x} // will this return the square of x? NOOOOOOOOOO!!!!!!!
+// recomended = always use brackets ()=>{} React really prefers this
+
+// old skool
+function fnX(x){
+    return x*x; // the square of x will be returned
+}
+result = fnX(3); // result will be 9
+
+// JavaScript is loosely typed
+let x = 1 // here x is typed as a number
+let c = 'Charli' // c is typed as a string
+    x = 'wow' // ...and now x is typed as a string
+
+
+
+
+
+
+
 // it is good practice to grab the ID of parts of the document DOM
 const btn = document.getElementById('btnAgree')
 const mon = document.getElementById('monitor')
