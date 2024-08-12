@@ -48,6 +48,7 @@ const go = document.getElementById('btnGo')
 const my_robot = document.getElementById('imgRobot')
 const set_n = document.getElementById('whichSet')
 const bg_n = document.getElementById('whichBg')
+const neoDetector = document.getElementById('isThisNeo')
 
 // a function to add a source to the image
 const doStuff = () => {
@@ -55,6 +56,16 @@ const doStuff = () => {
     const n = usr.value // remember every form field can have a value
     const m = set_n.value
     const p = bg_n.value
+    // iterate over whatever they typed
+    for (let i in n){
+        console.log(`character ${i} is ${n[i]}`)
+    }
+    // is this Neo??
+    if (n=='Neo'){
+        neoDetector.innerHTML = "we've been expecting you..."
+    }
+
+
     // add that to the robot url: use back-tick syntax
     const imgUrl = `https://robohash.org/${n}?set=set${m}&bgset=bg${p}`
     // set the attributes on our image tag

@@ -1,4 +1,4 @@
-you have abotu 20 mins
+you have about 20 mins
 add to your HTML/JS
 - user enters into the text field (already got that)
 - if they type 'Neo' then write 'we've been expecting you' on the page
