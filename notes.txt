@@ -7,14 +7,13 @@ in VS Code add 'live server' extension
 
 Feel free to use any resources you find online 
 
-
 Monday 12th August
 - Overview of web technologies and online resources
 - Stuff that matters, stuff that you can be lax about
 - HTML and CSS
 - JavaScript
 Tuesday 13th August
-- Financial Concepts
+- Financial Concepts (all day)
 Wednesday 14th August
 - React
 Thursday 15th August

@@ -1,0 +1,12 @@
+Web Technologies Repository
+https://github.com/onionmccabbage/reactAug2024
+Mozilla - HTML, CSS and JS
+https://developer.mozilla.org/en-US/
+W3Schools - HTML, CSS and JS
+https://www.w3schools.com/
+Learn CSS
+https://web.dev/learn/css/
+Learn JavaScript
+https://learnjavascript.online/
+React
+https://react.dev/
