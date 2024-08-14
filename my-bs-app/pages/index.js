@@ -3,8 +3,11 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hello from "./Hello";
+import { useState } from "react";
+import Panel from "./panel";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
+  const [ctrl, setCtrl] = useState(true)
   return ( // when we 'return' we are going to render html and our components
     <>
       <Head>
@@ -18,10 +21,12 @@ export default function Home() {
         {/* usually we build a React app with components */}
         {/* It is important to use InitialCap for our own component names */}
         {/* in React, html is always lowercase and React/our stuff is always Initial Cap */}
+        <Panel />
         <img src='' alt='' />
         {/* inject a string-literal for 'age' */}
         <Hello username={'Floella'} age={42} />
-        <Hello username={'Ethel'} age={'99'} />
+        {/* conditional rendering */}
+        {ctrl && <Hello username={'Ethel'} age={'99'} />}
         <Hello username={'Timnit'} age={'56'} />
         <Hello username={'Ermintrude'} age={'85'} />
 
