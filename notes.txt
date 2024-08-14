@@ -13,15 +13,18 @@ Monday 12th August
 - HTML and CSS
 - JavaScript
 q - how can we have the browser validate AND prevent default...(see React....)
-q - const fn=()=>{} ...
+> - const fn=()=>{} ...
 Tuesday 13th August
 - Financial Concepts (all day)
 Wednesday 14th August
 - React
+- NodeJS - lets us run JS on the server (or anywhere) It is the JS engine from chrome
+- async JS, promises ....
 Thursday 15th August
-- Loose Ends
+- Guest Speaker
 - Project Time
 Friday 16th August
+- React and Web loose ends
 - Knowledge-check
 - Project Time
 
