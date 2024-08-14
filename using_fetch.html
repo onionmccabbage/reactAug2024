@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Fetch</title>
+</head>
+
+<body>
+    <pre id="monitor"></pre>
+
+    <script>
+        const monitor = document.getElementById('monitor')
+        async function getData() {
+            const url = "https://jsonplaceholder.typicode.com/photos/3";
+            try {
+                const response = await fetch(url); // return a promise
+                if (!response.ok) {
+                    throw new Error(`Response status: ${response.status}`);
+                }
+                // this line will automatically convert the JSON into a JavaScript structure
+                const data = await response.json(); // this also returns a promise, and we MUST await a promise
+                console.log(data);
+                // we can convert any Javascript structure into JSON text
+                monitor.innerHTML = JSON.stringify(data)
+                // by the way JSON.parse() will convert JSON into a JavaScript structure
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+        // we need to call the function - NUMPTY!!!!!
+        getData()
+    </script>
+</body>
+
+</html>

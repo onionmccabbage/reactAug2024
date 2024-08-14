@@ -1,0 +1,17 @@
+You will have 18 minutes
+
+Inside the region component we need:
+- a state to handle 'region'
+- a <select> (with <option> tags) for the regions
+   South America
+   North America
+   Northern Europe
+   Southern Europe
+Bind the value of this select to tehstateful region
+Write an onChange handler to setRegion
+display the chosen regio somewhere on the component
+
+if time
+-------
+provide a stateful structure with country and currency 
+  e.g. const [countryData, setCountryData] = useState({country:'Costa Rica', currency:Costa Rica Colon})

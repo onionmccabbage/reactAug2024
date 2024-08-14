@@ -7,7 +7,7 @@ Inside the Button component
     const [whichRobot, setWhichRobot]=useState(1)
 Set the value of the number-input field to whichRobot
 Also add a change handler that calls a function
-Inside that function, increment the value of whichRobot
+Inside that function, set the value of whichRobot
 Then use the whichRobot data-model in the image src url
 You will know it works if you see different robots for different 
 numbers in this input field
