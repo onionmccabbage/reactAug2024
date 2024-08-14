@@ -17,9 +17,32 @@ q - how can we have the browser validate AND prevent default...(see React....)
 Tuesday 13th August
 - Financial Concepts (all day)
 Wednesday 14th August
-- React
+- React - can be used with ExpressJS, with pure JS, with many tools, with NextJS ..., with vite
+Steps to make a new React Project:
+(first ensure you have NodeJS installed at a recent version)
+Pick a location, open a  terminal and enter:
+    npx create-next-app@latest --template bootstrap
+Answer the questions as you see fit
+Change directory into your newly-created project folder
+    cd my-app (or whatever you called it)
+Invoke the development server
+    npm run dev
+Browse to https://localhost:3000
+from here on, it's a matter of editing the files in your new project......
+
+
+
+ try: npm install --global @create-next-app/core
+ then npm create-next-app@latest --template bootstrap
+ npx will download and execute without installing
+ q - whats with the underscores???
+ q - and Yarn?>?>!?
+
+
 - NodeJS - lets us run JS on the server (or anywhere) It is the JS engine from chrome
+  - NB we need Node 20 or better!!
 - async JS, promises ....
+q - keeping pace (and secure) with external libraries
 Thursday 15th August
 - Guest Speaker
 - Project Time
