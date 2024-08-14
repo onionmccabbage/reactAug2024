@@ -35,6 +35,7 @@ q - how do we know it's index.js or app.js ....????
 > do we have to stick to this immutability doobrie
     no, any JS is valid anywhere, but React expects immutable
 q - are there consequences
+q - can we pass arguments for React event handlelrs??????
  try: npm install --global @create-next-app/core
  then npm create-next-app@latest --template bootstrap
  npx will download and execute without installing
