@@ -36,7 +36,7 @@ q - how do we know it's index.js or app.js ....????
 > do we have to stick to this immutability doobrie
     no, any JS is valid anywhere, but React expects immutable
 q - are there consequences
-q - can we pass arguments for React event handlelrs??????
+q - can we pass arguments for React event handlers??????
  try: npm install --global @create-next-app/core
  then npm create-next-app@latest --template bootstrap
  npx will download and execute without installing
@@ -53,7 +53,16 @@ Thursday 15th August
 - Project Time
 Friday 16th August
 - React and Web loose ends
-- Knowledge-check
-- Project Time
+  - JavaScript XML (jsx)
+  - async fetch in React: useEffect (also lifecycle and dependencies)
+  - iterating with Array.map() ( also Array.filter() )
+  - using Fragment and key
+  - challenge: consume an API
+  - production build (and deployment)
+  - .then() (an alternative to async/await)
+  - be aware of Axios (https://axios-http.com/docs/intro)
+  - responsive CSS overview
+- Just before lunch: Knowledge-check
+- Most of the afternoon: Project Time
 
 Next week: Project presentations on afternoon of Friday 23rd Aug

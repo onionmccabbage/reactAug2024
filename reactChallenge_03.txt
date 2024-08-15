@@ -1,0 +1,34 @@
+You have 35 minutes
+
+The 'TickerComponent' will let the user enter a Company name
+The Company Name will then be passed to an API
+The returned data will be iterated to show any matching tickers
+
+Details:
+Provide a text input field for (case sensitive) Company name
+Bind the value to a stateful data-model
+Handle changes to the text field (so it is a controlled field)
+(You might choose to provide a button to be clicked)
+
+Write 'useEffect' and fetch data from
+    `https://ticker-2e1ica8b9.now.sh/keyword/${companyName}%20`
+    ('companyName' comes from your text field)
+Make sure 'useEffect' responds to changes in 'companyName'
+You will need to 'setState' for the returned data (default is [])
+
+Use Array.map() to iterate over the returned data
+Remember to set a key and render 'ticker.name' and 'ticker.symbol'
+
+You will know it is working if 'CitiGroup' returns about 9 results
+Other companies to try (case sensitive): 
+- NextEra Energy, First Solar, Cisco, Microsoft, Facebook, Bloom Energy Corporation
+
+Optional (if time)
+------------------
+Make a 'TickerDetailComponent' that can render a single result. 
+Use this to render your iterated returned data
+
+Think about how you could add a 'buy' button for each ticker on screen
+Clicking any button should increments a quantity value for that ticker
+Each ticker would default to quantity 0
+(this value is local to the app, nothing to do with any API)
