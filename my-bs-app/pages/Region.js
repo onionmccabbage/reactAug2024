@@ -6,8 +6,7 @@ const Region = () => {
     const handleRegionChange = (e)=>{
         setRegion(e.target.value)
     }
-    
-      
+ 
     return (
         <>
             <h4>The Region API</h4>
