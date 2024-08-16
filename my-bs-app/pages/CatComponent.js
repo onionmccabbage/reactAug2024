@@ -1,5 +1,5 @@
 // remember npm install axios
-import axios from "axios"
+// import axios from "axios"
 import { Fragment, useEffect, useState } from "react"
 import CatImage from "./cat_image"
 

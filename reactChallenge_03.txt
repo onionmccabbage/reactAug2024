@@ -13,6 +13,7 @@ Handle changes to the text field (so it is a controlled field)
 Write 'useEffect' and fetch data from
     `https://ticker-2e1ica8b9.now.sh/keyword/${companyName}%20`
     ('companyName' comes from your text field)
+    (ideas: leave out the trailing space, check companyName is truthy and use onBlur instead of onChange)
 Make sure 'useEffect' responds to changes in 'companyName'
 You will need to 'setState' for the returned data (default is [] or similar)
 

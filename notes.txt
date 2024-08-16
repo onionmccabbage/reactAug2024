@@ -12,8 +12,8 @@ Monday 12th August
 - Stuff that matters, stuff that you can be lax about
 - HTML and CSS
 - JavaScript
-q - fix my complex stateful robot example
-q - how can we have the browser validate AND prevent default...(see React....)
+> fix my complex stateful robot example
+> how can we have the browser validate AND prevent default...(see React....)
 > - const fn=()=>{} ...
 Tuesday 13th August
 - Financial Concepts (all day)
@@ -31,31 +31,31 @@ Invoke the development server
 Browse to https://localhost:3000
 from here on, it's a matter of editing the files in your new project......
 
-q - how do we know it's index.js or app.js ....????
+> how do we know it's index.js or app.js pr home.js depends on flavour of React....????
 > how may we conditionally render components
 > do we have to stick to this immutability doobrie
     no, any JS is valid anywhere, but React expects immutable
-q - are there consequences
-q - can we pass arguments for React event handlers??????
+> are there consequences
+> can we pass arguments for React event handlers??????
  try: npm install --global @create-next-app/core
  then npm create-next-app@latest --template bootstrap
  npx will download and execute without installing
- q - whats with the underscores???
- - and Yarn
+> whats with the underscores???
+> and Yarn
 
 
 - NodeJS - lets us run JS on the server (or anywhere) It is the JS engine from chrome
   - NB we need Node 20 or better!!
 - async JS, promises ....
-q - keeping pace (and secure) with external libraries
+> keeping pace (and secure) with external libraries
 Thursday 15th August
 - Guest Speaker
 - Project Time
 Friday 16th August
 - React and Web loose ends
-  - JavaScript XML (jsx)
-  - async fetch in React: useEffect (also lifecycle and dependencies)
-  - iterating with Array.map() ( also Array.filter() )
+  > JavaScript XML (jsx)
+  > async fetch in React: useEffect (also lifecycle and dependencies)
+  > iterating with Array.map() ( also Array.filter() )
   - using Fragment and key
   - challenge: consume an API
   - production build (and deployment)
