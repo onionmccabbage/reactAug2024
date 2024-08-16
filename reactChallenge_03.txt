@@ -1,6 +1,6 @@
-You have 35 minutes
+You have 40 minutes
 
-The 'TickerComponent' will let the user enter a Company name
+Write a 'TickerComponent' to let the user enter a Company name
 The Company Name will then be passed to an API
 The returned data will be iterated to show any matching tickers
 
