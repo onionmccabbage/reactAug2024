@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Region = () => {
     const [region, setRegion] = useState('South America')
@@ -7,6 +7,23 @@ const Region = () => {
         setRegion(e.target.value)
     }
  
+    // useEffect is a 'side-effect' often used to grab API data asynchronously
+    useEffect( ()=>{
+        // we can fetch some data from an API
+        fetchData = async ()=>{
+            const url = `https://restcountries.com/v3.1/subregion/${region}?fields=name,currencies`;
+            // by default fetch makes a 'GET' request
+            const response = await fetch(url) // a promise that will return something from the API
+            const data = await response.json()
+            console.log(data)
+        }
+
+
+    }, [region]) // the [] is an array of dependencies (it is optional, but explitly declare is good practice)
+    // if [] is empty, useEffect triggers ONE, on component load
+    // if [] ontains any stateful models, useEffect will be triggered if ANY of them change (also on component load)
+
+
     return (
         <>
             <h4>The Region API</h4>
