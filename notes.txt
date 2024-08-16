@@ -63,7 +63,7 @@ Friday 16th August
   > .then() (an alternative to async/await)
   > be aware of Axios (https://axios-http.com/docs/intro)
   - responsive CSS overview
-  - loose ends: architecture, resources
+  - loose ends: architecture, resources  
 - Just after lunch: Knowledge-check
 - Most of the afternoon: Project Time
 At some point today: end-of-week feedback (online form)

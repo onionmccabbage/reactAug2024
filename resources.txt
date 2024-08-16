@@ -20,4 +20,7 @@ https://mdbootstrap.com/docs/standard/data/charts/
 https://blog.logrocket.com/top-8-react-chart-libraries/
 
 For Very Easy Component Creation:
-There is a plug in for Visual Studio that lets you automatically create all of the boilerplate for a .js page.  The plug-in is called "ES7 + React/Redux/React-Native Snippets" and the author is dsznajder.  Once you have created the new file, simply type RAFCE (shor for React, Arrow Function, Component, Export) and hit enter and all the boilerplate is generated for you!  It's easy to install just by clicking on the plug-in icon in the left hand column (4 boxes, one disconnected) and searching for 'snippet'
+There is a plug in for Visual Studio that lets you automatically create all of the 
+boilerplate for a .js page.  The plug-in is called 
+"ES7 + React/Redux/React-Native Snippets" and the author is dsznajder. 
+Once you have created the new file, simply type RAFCE (short for React, Arrow Function, Component, Export) and hit enter and all the boilerplate is generated for you!  It's easy to install just by clicking on the plug-in icon in the left hand column (4 boxes, one disconnected) and searching for 'snippet'
