@@ -53,14 +53,15 @@ Thursday 15th August
 - Project Time
 Friday 16th August
 - React and Web loose ends
+  q - how to organize React code
   > JavaScript XML (jsx)
   > async fetch in React: useEffect (also lifecycle and dependencies)
   > iterating with Array.map() ( also Array.filter() )
-  - using Fragment and key
-  - challenge: consume an API
-  - production build (and deployment)
-  - .then() (an alternative to async/await)
-  - be aware of Axios (https://axios-http.com/docs/intro)
+  > using Fragment and key
+  > challenge: consume an API
+  > production build (and deployment) npm run prod
+  > .then() (an alternative to async/await)
+  > be aware of Axios (https://axios-http.com/docs/intro)
   - responsive CSS overview
   - loose ends...
 - Just before lunch: Knowledge-check

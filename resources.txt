@@ -10,6 +10,8 @@ Learn JavaScript
 https://learnjavascript.online/
 React
 https://react.dev/
+Axios
+https://www.npmjs.com/package/axios
 
 For charting:
 https://www.chartjs.org/

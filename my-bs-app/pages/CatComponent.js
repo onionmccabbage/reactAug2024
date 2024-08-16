@@ -1,5 +1,5 @@
 // remember npm install axios
-// import axios from "axios"
+import axios from "axios"
 import { Fragment, useEffect, useState } from "react"
 import CatImage from "./cat_image"
 
@@ -8,6 +8,7 @@ const CatComponent = () => {
     const [maxWidth, setMaxWidth] = useState(500)
     const [smallCats, setSmallCats] = useState([])
     const changeWhichCats = (num) => {
+        // here we use Array.filter to show only matching members
         setSmallCats(cats.filter((cat) =>
             cat.width < num 
         ))
@@ -19,18 +20,19 @@ const CatComponent = () => {
     useEffect( // only useEffect for external stuff
         () => {
             // conditional render - wait until there are cats then re-render
-            // axios.get('https://jsonplaceholder.typicode.com/users')
-            // axios.get('https://api.thecatapi.com/v1/images/search?limit=3')
-            //     .then((response) => {
-            //         setCats(response.data)
-            //     })
-            fetch('https://api.thecatapi.com/v1/images/search?limit=10')
-                .then(response => response.json())
-                .then((data) => {
-                    setCats(data)
-                    setSmallCats(data) // initially no filtering
+            axios.get('https://jsonplaceholder.typicode.com/users')
+            axios.get('https://api.thecatapi.com/v1/images/search?limit=3')
+                .then((response) => {
+                    setCats(response.data)
                 })
-        }, [] // [] will only refresh when render changes
+            // fetch('https://api.thecatapi.com/v1/images/search?limit=10')
+            //     .then(response => response.json())
+            //     .then((data) => {
+            //         setCats(data)
+            //         setSmallCats(data) // initially no filtering
+            //     })
+        }
+        , [] // [] will only refresh when render changes
     )
     if (!cats) {
         return (<h4>loading cats...</h4>)
