@@ -10,14 +10,15 @@ const Region = () => {
     // useEffect is a 'side-effect' often used to grab API data asynchronously
     useEffect( ()=>{
         // we can fetch some data from an API
-        fetchData = async ()=>{
+        const fetchData = async ()=>{
             const url = `https://restcountries.com/v3.1/subregion/${region}?fields=name,currencies`;
             // by default fetch makes a 'GET' request
             const response = await fetch(url) // a promise that will return something from the API
             const data = await response.json()
             console.log(data)
         }
-
+        // dont forget to call the function!!!!!!
+        fetchData()
 
     }, [region]) // the [] is an array of dependencies (it is optional, but explitly declare is good practice)
     // if [] is empty, useEffect triggers ONE, on component load
