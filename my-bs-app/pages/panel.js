@@ -20,7 +20,7 @@ const Panel = ()=>{
             <b>The random value is {rand}</b>
             {/* remember to import these!!! */}
             <Button r={rand} handleParent={cleverStuff} />
-            <Region />
+            <Region /> 
             <Ticker />
             <hr/>
                 {/* we can pass arguments into an event handler function */}
