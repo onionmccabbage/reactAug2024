@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Check</title>
+    <style>
+        section {
+            background-color: darkgray;
+        }
+
+        p {
+            color: red;
+        }
+
+        .wibble {
+            color: yellow;
+        }
+
+        #doobiedoo {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HTML semantic tags are useful because they can aid accessibility
+        and Search engines can better understand the purpose of content regions -->
+    <article>
+        <!-- match the CSS selector "#quantity" -->
+        <img id="quantity" />
+        <!-- css example -->
+        <section>
+            <p>this text will be red</p>
+            <p class='wibble'>This text will be yellow</p>
+            <p class='wibble'>This text will (not) be green</p>
+            <p id='doobiedoo'>This text will be green</p>
+            <p id='doobiedoo'>This text will (not) be red</p>
+            <p id='doobiedoo' class='wibble'>This text will be green</p>
+        </section>
+        <!-- hover over this image: The text 'computer pointing device' will appear -->
+        <img width="64" src='mouse.png' alt='small rodent' title='computer pointing device' />
+        <aside>
+            <ul>
+                <li>React is mainly used for building User interfaces</li>
+                <li>Everything in React is a component</li>
+                <li>Both class and function components can have state</li>
+                <li>The default port of a React app is 3000</li>
+                <li>States are objects which determine components rendering and behavior</li>
+                <li>React is a front-end JavaScript library developed by Facebook in 2011</li>
+                <li>It is used for developing complex and interactive web and mobile UI</li>
+                <li>the Axios JavaScript library is typically used to invoke REST APIs</li>
+                <li>The method used to convert JSON into text is JSON.stringify()</li>
+                <li>React's virtual DOM increases the applications performance</li>
+                <li>JSX is a shorthand for JavaScript XML</li>
+                <li>When using the JavaScript package manager npm, when you add a new library to a project with npm
+                    install
+                </li>
+                <ul>
+                    <li>The library and its dependencies are saved into the node-modules subfolder</li>
+                    <li>An entry is added to package.json</li>
+                </ul>
+            </ul>
+        </aside>
+    </article>
+    <script>
+        let colors = ["red", "green", "blue"] // an array   
+        let x = 5; x = true // can change data type
+        // ways to declare a function
+        const fnA = x => x * x;
+        const fnB = (x) => { x * x }; // but does not return the result
+        const fnC = (x) => { return x * x };
+        function fnD(x) { return x * x };
+        //
+        {
+            const x = 'ABCD'
+            let y = `The answer is ${x[1]}` // y = "The answer is B"
+        } 
+    </script>
+</body>
+</html>

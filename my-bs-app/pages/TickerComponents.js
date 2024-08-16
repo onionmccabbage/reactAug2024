@@ -16,8 +16,8 @@ const TickerComponent = () => {
         // declare the async function
         const fetchData = async () => {
             const url = `https://ticker-2e1ica8b9.now.sh/keyword/${companyName}%20`;
-            const response = await fetch(url);
-            const data = await response.json();
+            const response = await fetch(url); // fetch will return a promise
+            const data = await response.json(); // turns out response ALSO returns a promise
             // see whats been returned (could use console.log)
             console.log(data);
             setTickerData(data)

@@ -9,7 +9,7 @@ https://web.dev/learn/css/
 Learn JavaScript
 https://learnjavascript.online/
 React
-https://react.dev/
+https://react.dev/ especially https://react.dev/learn/thinking-in-react
 Axios
 https://www.npmjs.com/package/axios
 
