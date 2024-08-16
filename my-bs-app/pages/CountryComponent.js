@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CountryComponent = ({ country = {} }) => {
+const CountryComponent = ({ country = {name:{common:''}, currencies:''} }) => {
     const [score, setScore] = useState(1);
     return (
         <li>

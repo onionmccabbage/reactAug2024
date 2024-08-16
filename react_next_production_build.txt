@@ -1,0 +1,21 @@
+Making a Production build
+=========================
+- In your JSX you may need to change {country.name.common} to {country['name']['common']}
+  (use square-bracket notation instead of dot notation within JSX)
+
+- Open next.config.mjs and edit as below:
+    /** @type {import('next').NextConfig} */
+    const nextConfig = {
+    // these next lines change how 'npm run build' works: 
+    output: 'export',  // export to static deployable files
+    images: {
+        unoptimized: true, // this lets us use normal <img> tags
+    },
+    // default
+    reactStrictMode: true,
+    };
+    export default nextConfig;
+
+Then execute: npm run build
+The deployable site will end up in a folder called 'out' (this is your entire website)
+NB delete the 'out' folder (and the '.next' folder if it exists) before running npm run build a second time
