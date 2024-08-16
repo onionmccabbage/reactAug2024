@@ -55,9 +55,9 @@ const Region = () => {
                             <CountryComponent country={country} />
                         </Fragment>
                         // or simply show list items
-                        {/* <li>
-                            Country: {country.name['common']} Currency: {Object.keys(country.currencies)}
-                        </li>  */}
+                        // <li>
+                        //     Country: {country.name['common']} Currency: {Object.keys(country.currencies)}
+                        // </li>
                     )
                 })}
             </ul>
