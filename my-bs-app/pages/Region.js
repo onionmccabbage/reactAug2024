@@ -50,14 +50,14 @@ const Region = () => {
                     // JSX elements directly inside a map() call always need keys
                     return (
                         // Fragment will be ignored by the browser
-                        // <Fragment key={country.name['common']}>
-                        //     {/* it can be useful to write a component to render results */}
-                        //     <CountryComponent country={country} />
-                        // </Fragment>
+                        <Fragment key={country.name['common']}>
+                            {/* it can be useful to write a component to render results */}
+                            <CountryComponent country={country} />
+                        </Fragment>
                         // or simply show list items
-                        <li>
-                            Country: {country.name['common']} Currency: {Object.keys(country.currencies)}
-                        </li>
+                        // <li>
+                        //     Country: {country.name['common']} Currency: {Object.keys(country.currencies)}
+                        // </li>
                     )
                 })}
             </ul>
