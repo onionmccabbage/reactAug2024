@@ -1,4 +1,4 @@
-You have 40 minutes
+You have 40 minutes (then show-and-tell!!!!)
 
 Write a 'TickerComponent' to let the user enter a Company name
 The Company Name will then be passed to an API
@@ -14,10 +14,10 @@ Write 'useEffect' and fetch data from
     `https://ticker-2e1ica8b9.now.sh/keyword/${companyName}%20`
     ('companyName' comes from your text field)
 Make sure 'useEffect' responds to changes in 'companyName'
-You will need to 'setState' for the returned data (default is [])
+You will need to 'setState' for the returned data (default is [] or similar)
 
 Use Array.map() to iterate over the returned data
-Remember to set a key and render 'ticker.name' and 'ticker.symbol'
+Remember to set a key, then render 'ticker.name' and 'ticker.symbol'
 
 You will know it is working if 'CitiGroup' returns about 9 results
 Other companies to try (case sensitive): 

@@ -1,7 +1,8 @@
 import { useState } from "react"
 import Button from "./Button"
 import Region from "./Region"
-import Ticker from "./Ticker"
+import TickerComponent from "./TickerComponents"
+import Typicode from "./TypicodeComponent"
 
 const Panel = ()=>{
     const [rand, setRand] = useState(55)
@@ -21,11 +22,13 @@ const Panel = ()=>{
             {/* remember to import these!!! */}
             <Button r={rand} handleParent={cleverStuff} />
             <Region /> 
-            <Ticker />
+            <TickerComponent />
             <hr/>
                 {/* we can pass arguments into an event handler function */}
                 <button onClick={()=>{demoFn(3, 5)}} >Demo: passing args to function</button>
             <hr/>
+     {/* Here is a sample using GET POST PUT UPDATE and DELETE */}
+        <Typicode />
         </>
     )
 }

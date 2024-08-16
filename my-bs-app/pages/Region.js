@@ -4,7 +4,7 @@ import CountryComponent from "./CountryComponent"
 const Region = () => {
     // React will give use a 'setter' function
     const [region, setRegion] = useState('South America')
-    // the inisial state does not need ot match any later state, but it probably should
+    // the inisial state does not need to match any later state, but it probably should
     const [countryData, setCountryData] = useState([{"name":{"common":"Colombia","official":"Republic of Colombia","nativeName":{"spa":{"official":"República de Colombia","common":"Colombia"}}},"currencies":{"COP":{"name":"Colombian peso","symbol":"$"}}}])
     const handleRegionChange = (e)=>{
         setRegion(e.target.value)
@@ -50,14 +50,14 @@ const Region = () => {
                     // JSX elements directly inside a map() call always need keys
                     return (
                         // Fragment will be ignored by the browser
-                        <Fragment key={country.name['common']}>
-                            {/* it can be useful to write a component to render results */}
-                            <CountryComponent country={country} />
-                        </Fragment>
+                        // <Fragment key={country.name['common']}>
+                        //     {/* it can be useful to write a component to render results */}
+                        //     <CountryComponent country={country} />
+                        // </Fragment>
                         // or simply show list items
-                        // <li>
-                        //     Country: {country.name['common']} Currency: {Object.keys(country.currencies)}
-                        // </li>
+                        <li>
+                            Country: {country.name['common']} Currency: {Object.keys(country.currencies)}
+                        </li>
                     )
                 })}
             </ul>

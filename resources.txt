@@ -10,3 +10,7 @@ Learn JavaScript
 https://learnjavascript.online/
 React
 https://react.dev/
+
+For charting:
+https://mdbootstrap.com/docs/standard/data/charts/
+https://blog.logrocket.com/top-8-react-chart-libraries/

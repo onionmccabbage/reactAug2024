@@ -6,6 +6,7 @@ import Hello from "./Hello";
 import { useState } from "react";
 import Panel from "./panel";
 import Region from "./Region";
+import CatComponent from "./CatComponent";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [ctrl, setCtrl] = useState(true)
@@ -30,7 +31,7 @@ export default function Home() {
         {ctrl && <Hello username={'Ethel'} age={'99'} />}
         <Hello username={'Timnit'} age={'56'} />
         <Hello username={'Ermintrude'} age={'85'} />
-
+        <CatComponent />
 
 
       </main>
